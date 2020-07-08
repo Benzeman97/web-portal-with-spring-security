@@ -1,10 +1,14 @@
 package com.benz.web.controller;
 
+import com.benz.web.services.UserDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController{
+
+
 
     @RequestMapping("/admin")
     public String getAdmin()
@@ -23,4 +27,7 @@ public class HomeController{
     {
         return ("<h1>Welcome All</h1>");
     }
+
+
+
 }
