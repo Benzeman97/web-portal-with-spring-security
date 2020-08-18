@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: "jdbc:oracle:thin:@localhost:1521:orcl"
+    username: "HR"
+    password: "14292"
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+
+#security:
+#  oauth2:
+#    client:
+#      client-id: "676084371603-h5rtefhsr49jdbtbb1p0n6mg5u81j.apps.googleusercontent.com"
+#      client-secret: "Pi-7jo82DOrOKCuIJ_t0CP"
+#      access-token-uri: "https://googleapis.com/oauth2/v3/token"
+#      user-authorization-uri: "https://accounts.google.com/o/oauth2/auth"
+#      token-name: "oauth_token"
+#      authentication-scheme: query
+#      client-authentication-scheme: form
+#      scope: email
+#    resource:
+#      user-info-uri: "https://googleapis.com/oauth2/v2/me"
+#      prefer-token-info: false
+
